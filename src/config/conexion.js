@@ -7,7 +7,7 @@ const conexionBDD = async () => {
     console.log('Connecting to MongoDB...');
     console.log('MONGO_URL:', process.env.MONGO_URL);
     const client = new MongoClient(process.env.MONGO_URL, {
-      useNewUrlParser: true,
+     
     });
 
     await client.connect();
