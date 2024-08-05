@@ -18,7 +18,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-const PORT = appEnv.get('PORT') || 3000;
+const PORT = appEnv.get('PORT') || 3001;
 
 // Conectar a la base de datos
 conexionBDD().then(() => {
