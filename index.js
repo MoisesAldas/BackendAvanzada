@@ -27,8 +27,8 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use(bodyParser.json({ limit: "100mb" }));
-app.use(bodyParser.urlencoded({ limit: "100mb", extended: true }));
+app.use(bodyParser.json({ limit: "1gb" }));
+app.use(bodyParser.urlencoded({ limit: "1gb", extended: true }));
 
 
 const PORT = appEnv.get("PORT") || 3000;
