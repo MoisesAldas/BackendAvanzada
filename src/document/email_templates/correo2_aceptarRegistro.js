@@ -108,7 +108,7 @@ const email2_aceptoPedido = (formulario) => {
             </table>
             <div class="section-title">SUBE TU COMPROBANTE DE PAGO:</div>
             <p>Para completar tu pedido, por favor sube el comprobante de pago a través del siguiente enlace:</p>
-            <p><a href="http://34.67.50.99:4200/voucher/${formulario.cedula}" target="_blank" class="button">Subir Comprobante de Pago</a></p>
+            <p><a href="http://34.168.9.244:4200/voucher/${formulario.cedula}" target="_blank" class="button">Subir Comprobante de Pago</a></p>
         </div>
         <div class="footer">
             <p>Los juegos y aplicaciones compradas en Game Galaxy califican para un reembolso en un plazo de 14 días a partir de la compra (o después de 14 días del lanzamiento, en el caso de las precompras) si jugaste menos de 2 horas, a menos que se indique lo contrario en sus páginas de producto. Las ofertas que incluyen monedas virtuales u otros consumibles se marcan como "no reembolsables" y no es posible procesar un reembolso para ellas. La mayoría de las compras dentro de la aplicación no son reembolsables.</p>

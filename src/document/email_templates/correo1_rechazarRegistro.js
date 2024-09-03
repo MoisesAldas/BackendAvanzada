@@ -79,7 +79,7 @@ const email1_rechazoPedido = (formulario) => {
             <p>Lamentamos informarte que tu pedido ha sido rechazado.</p>
             <p>Para continuar con el proceso de compra, te pedimos que ingreses nuevamente tus datos en el formulario.</p>
             <p>Por favor, haz clic en el siguiente enlace para redirigirte al formulario y completar los datos requeridos:</p>
-            <p><a href="http://34.67.50.99:4200/videojuego-form" target="_blank" class="button">Ir al formulario</a></p>
+            <p><a href="http://34.168.9.244:4200/videojuego-form" target="_blank" class="button">Ir al formulario</a></p>
         </div>
         <div class="footer">
             <p>Los juegos y aplicaciones compradas en Game Galaxy califican para un reembolso en un plazo de 14 días a partir de la compra (o después de 14 días del lanzamiento, en el caso de las precompras) si jugaste menos de 2 horas, a menos que se indique lo contrario en sus páginas de producto. Las ofertas que incluyen monedas virtuales u otros consumibles se marcan como "no reembolsables" y no es posible procesar un reembolso para ellas. La mayoría de las compras dentro de la aplicación no son reembolsables.</p>
