@@ -27,11 +27,7 @@ module.exports = {
         if (!data.cedula || !validateEcuadorianCedula(data.cedula)) {
           errors.push('La cédula ecuatoriana es inválida.');
         }
-    
-        // Validación del id de videojuego
-        if (!data.idVideojuego || ![1, 2, 3, 4, 5].includes(data.idVideojuego)) {
-          errors.push('El id del videojuego debe estar entre 1 y 5.');
-        }
+  
     
         // Validación del precio, total y subtotal
         const validateNumber = (value) => {

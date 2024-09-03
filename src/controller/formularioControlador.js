@@ -43,7 +43,7 @@ exports.createFormulario = async (req, res) => {
     cedula,
     email,
     telefono,
-    idVideojuego,
+    nombreVideojuego,
     codigoDescuento,
     total,
     subtotal,
@@ -57,7 +57,7 @@ exports.createFormulario = async (req, res) => {
     cedula,
     email,
     telefono,
-    idVideojuego,
+    nombreVideojuego,
     codigoDescuento,
     total,
     subtotal,
@@ -79,7 +79,7 @@ exports.createFormulario = async (req, res) => {
       cedula,
       email,
       telefono,
-      idVideojuego,
+      nombreVideojuego,
       codigoDescuento,
       total,
       subtotal,
@@ -96,6 +96,8 @@ exports.createFormulario = async (req, res) => {
       console.error("Error al enviar el correo:", err);
       return res.status(500).send("Error al enviar el correo");
     }
+    
+    console.log("Formulario antes de enviar: ", formulario);
 
     await db.collection("Formularios").insertOne(formulario);
     res.status(201).json(formulario);

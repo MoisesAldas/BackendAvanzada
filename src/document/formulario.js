@@ -4,7 +4,7 @@ class Formulario {
     cedula,
     email,
     telefono,
-    idVideojuego,
+    videojuego,
     codigoDescuento,
     total,
     subtotal,
@@ -17,7 +17,7 @@ class Formulario {
     this.cedula = cedula;
     this.email = email;
     this.telefono = telefono;
-    this.idVideojuego = idVideojuego;
+    this.videojuego = videojuego;
     this.codigoDescuento = codigoDescuento;
     this.total = total;
     this.subtotal = subtotal;

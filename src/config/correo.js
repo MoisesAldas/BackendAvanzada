@@ -21,10 +21,14 @@ const enviarCorreo = async (cedula, email, tipo, formulario = null) => {
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 587,
+      secure: false, // or 'STARTTLS'
       auth: {
         user: process.env.USER_MAIL_SERVER1, // Usuario del servidor de correo
         pass: process.env.PSWD_MAIL_SERVER1, // Contraseña del servidor de correo
       },
+      tls:{
+        rejectUnauthorized: false
+      }
     });
 
     // Definición de las opciones del correo en función del tipo

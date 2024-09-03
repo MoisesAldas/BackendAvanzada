@@ -105,13 +105,13 @@ const email0_procesoCompra = (formulario) => {
                 <h3>Detalles del Pedido</h3>
                 <table>
                     <tr>
-                        <th>ID del Juego</th>
+                        <th>Nombre del Juego</th>
                         <th>Precio</th>
                         <th>Subtotal</th>
                     </tr>
                     <tr>
-                        <td>${formulario.idVideojuego}</td>
-                        <td>$${formulario.precio} </td>
+                        <td>${formulario.videojuego}</td>
+                                                <td>$${formulario.precio} </td>
                         <td>$${formulario.subtotal} </td>
                     </tr>
                 </table>
